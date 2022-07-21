@@ -1,6 +1,12 @@
 /* 메인 */
 .main .main-video{width: 100%; height: 100vh;}
 .main .main-video video{width: 100%; height: 100%; object-position: center; object-fit: fill;}
+.main .main-video video.video-m{display: none;}
+
+@media screen and (max-width: 768px) {
+    .main .main-video video.video{display: none;}
+    .main .main-video video.video-m{display: unset;}
+}
 
 /* 공통 */
 .h2-wrap{padding-top: 40px; position: relative; width: fit-content; margin: 0 auto 56px;}
