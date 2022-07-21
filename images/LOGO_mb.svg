@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="43" viewBox="0 0 120 43">
+    <defs>
+        <clipPath id="3j44ksgnoa">
+            <path data-name="사각형 42733" style="fill:none" d="M0 0h120v25H0z"/>
+        </clipPath>
+    </defs>
+    <g style="opacity:.6">
+        <path data-name="사각형 42811" style="fill:none" d="M0 0h120v43H0z"/>
+        <g data-name="그룹 7470">
+            <path data-name="패스 8" d="M0 0v23.87h15.3v-3.951H4.9V0z" transform="translate(0 9.41)" style="fill:#fff"/>
+            <path data-name="사각형 42731" transform="translate(63.936 9.41)" style="fill:#fff" d="M0 0h4.9v23.87H0z"/>
+            <g data-name="그룹 7469">
+                <g data-name="그룹 7468" style="clip-path:url(#3j44ksgnoa)" transform="translate(0 9)">
+                    <path data-name="패스 9" d="M458.7 20.246q4.57 0 4.642-4.36V0h-5.427v15.885q-.046 2.773-1.912 3.78a5.707 5.707 0 0 0 2.7.581" transform="translate(-343.36 .41)" style="fill:#fff"/>
+                    <path data-name="패스 10" d="M412.341 21.983a7.462 7.462 0 0 1-2.747-5.617c-.015-.2-.025-.4-.025-.613V0h-5.419v15.9a7.575 7.575 0 0 0 2.763 6.082 11.223 11.223 0 0 0 7.317 2.218 15.822 15.822 0 0 0 2.714-.22 9.772 9.772 0 0 1-4.6-1.993" transform="translate(-304.317 .41)" style="fill:#fff"/>
+                    <path data-name="패스 11" d="M88.367 6.674H83.86l2.752 8.293h-5.9L83.528 6.4 85.564 0H81.4l-8.784 23.869h5.167L79.4 18.95h8.52l1.636 4.918h5.167z" transform="translate(-54.679 .41)" style="fill:#fff"/>
+                    <path data-name="패스 12" d="M190.826 22.963V39.9h4.859V21.379z" transform="translate(-143.688 -15.624)" style="fill:#fff"/>
+                    <path data-name="패스 13" d="M161.973 0v3.983h7.127v.006h4.859v-.006h7.224V0z" transform="translate(-121.962 .41)" style="fill:#fff"/>
+                    <path data-name="사각형 42732" transform="translate(89.315 .41)" style="fill:#fff" d="M0 0h4.843v14.839H0z"/>
+                    <path data-name="패스 14" d="M308.394 0h-4.86v23.869h4.86V8.164l9.46 15.7h4.859l-5.384-9.029z" transform="translate(-228.555 .41)" style="fill:#fff"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

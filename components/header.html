@@ -1,0 +1,80 @@
+<div class="header">
+    <h1 class="logo">
+        <a href="index.html" class=""></a>
+    </h1>
+    <div class="hd-nav">
+        <ul>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="https://www.reddit.com/r/LatinULearning/" target="_blank">Forum</a>
+            </li>
+            <li>
+                <a href="mailto:LatinULearning@gmail.com">Contact</a>
+            </li>
+            <li>
+                <a href="rearn_intro.html" class="counsel-btn">Learn</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mb-hd">
+        <div class="btn-wrap">
+            <button class="mb-hd-open"><i class="xi-align-right"></i></button>
+        </div>
+        <div class="mb-hd-wrap">
+            <div class="mb-hd-box">
+                <div class="mb-logo">
+                    <img src="../images/LOGO2.svg" alt="">
+                </div>
+                <ul class="mb-nav">
+                    <li class="instant">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="instant">
+                        <a href="https://www.reddit.com/r/LatinULearning/" target="_blank">Forum</a>
+                    </li>
+                    <li class="instant">
+                        <a href="mailto:LatinULearning@gmail.com">Contact</a>
+                    </li>
+                    <li class="instant">
+                        <a href="rearn_intro.html">Learn</a>
+                    </li>
+                </ul>
+                <div class="sns-wrap-mb">
+                    <a href="" class="utb"></a>
+                    <a href="" class="kakao"></a>
+                    <a href="" class="blog"></a>
+                </div>
+                <button class="close-btn"><i class="xi-close"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('.header').addClass('active');
+            }else{
+                $('.header').removeClass('active');
+            }    
+        });
+    });
+</script>
+
+<!-- 모바일 nav -->
+<script>
+    $(function () {
+        $(".mb-hd-open").click(function () {
+            $(".mb-hd-wrap").addClass("open");
+            $(".close-btn").click(function () {
+                $(".mb-hd-wrap").removeClass("open");
+            })
+        })
+    })
+</script>
+
+
+
