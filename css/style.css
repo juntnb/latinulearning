@@ -70,8 +70,7 @@
 @keyframes scroll { 0% { opacity: 0; } 10% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(15px); opacity: 0;}}
 
 @media screen and (max-width: 768px) {
-    .main .main-video { height: calc( 100vh - 56px - 156px ); }
-    .main .main-video video{ object-fit: contain;}
+
 
     /*===========================================================================================
         about 
