@@ -4,8 +4,10 @@
 .main .main-video video.video-m{display: none;}
 
 @media screen and (max-width: 768px) {
+    .main .main-video{width: 100%; height: calc(100vh - 56px);}
     .main .main-video video.video{display: none;}
     .main .main-video video.video-m{display: unset;}
+
 }
 
 /* 공통 */
@@ -70,6 +72,7 @@
 @keyframes scroll { 0% { opacity: 0; } 10% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(15px); opacity: 0;}}
 
 @media screen and (max-width: 768px) {
+
     /*===========================================================================================
         about 
     ==========================================================================================*/
