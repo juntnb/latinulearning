@@ -173,6 +173,7 @@
 .rearn .overview .text-box1 ul li:last-child{margin-bottom: unset;}
 .rearn .overview .text-box1 ul li p{font-size: 20px; line-height: 1.6; color: #fff;}
 .rearn .overview .text-box1 ul li p.dot::before{background-color: #fff;}
+.rearn .overview .text-box1 ul li p .yellow{font-weight: 700; color: #ffe319;}
 .rearn .question-box{border-radius: 16px; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07); background-color: #fff; overflow: hidden; margin-bottom: 40px;}
 .rearn .question-box:last-child{margin-bottom: unset;}
 .rearn .question-box > ul{padding: 48px; display: flex; flex-direction: column; gap: 24px;}

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
   <g id="sns-icon-blog" transform="translate(-1641 -332)">
     <circle id="타원_24" data-name="타원 24" cx="24" cy="24" r="24" transform="translate(1641 332)" fill="#fff"/>
-    <text id="_" data-name="" transform="translate(1665 368)" fill="#444" font-size="28" font-family="xeicon"><tspan x="-14" y="0"></tspan></text>
+    <path id="패스_20950" data-name="패스 20950" d="M9.324-18.676H7v10.5H-7v2.352a1.1,1.1,0,0,0,.342.807,1.135,1.135,0,0,0,.834.342H5.824L10.5,0V-17.5a1.135,1.135,0,0,0-.342-.834A1.135,1.135,0,0,0,9.324-18.676ZM5.824-10.5V-21a1.135,1.135,0,0,0-.342-.834,1.1,1.1,0,0,0-.807-.342H-10.5a1.135,1.135,0,0,0-.834.342,1.135,1.135,0,0,0-.342.834V-4.676L-7-9.324H4.676a1.1,1.1,0,0,0,.807-.342A1.135,1.135,0,0,0,5.824-10.5Z" transform="translate(1665 368)" fill="#444"/>
   </g>
 </svg>
