@@ -244,6 +244,7 @@
 .rearn .dot.gray::before{background-color: #979797;}
 .rearn .dot.bluedot::before{background-color: #005eff;}
 .rearn .mgr{margin-right: 72px;}
+.rearn .halftxt{width: 15%; margin-right: 0; display: inline-block;}
 .rearn .num-list .num.dot{font-size: 10px; padding-top: 12px; padding-left: unset;}
 .rearn .num-list .num.dot::before{display: none;}
 .rearn .num-list .num.sm{font-size: 20px; line-height: 1.6;}
@@ -353,8 +354,8 @@
 
 
 .next_btn{text-align: center; margin-top: 40px;}
-.next_btn a{display: inline-block; padding: 24px 64px; background-color: #005eff; color: #ffe319; font-size: 18px; border-radius: 50px;}
-
+.next_btn a{display: inline-block; padding: 24px 64px; background-color: #005eff; color: #ffe319; font-size: 18px; border-radius: 50px; transition: 0.3s;}
+.next_btn a:hover { background-color: #ffe319; color: #005eff;}
 
 /*===========================================================================================
     반응형 작업
@@ -440,6 +441,7 @@
     .rearn .content .position-wrap .download-btn img{display: block; position: absolute; width: 20px; height: 20px; left: 50%; top: 50%; transform: translate(-50% , -50%);}
     .rearn .content .position-wrap .download-btn::after{width: 20px; height: 20px; background-image: url(../images/note-icon.svg); content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%);}
 
+    .rearn .halftxt{width: 40%;; margin-right: 0;}
 
 }
 
