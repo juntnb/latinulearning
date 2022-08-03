@@ -47,8 +47,8 @@
 .about .section3 .my-list{display: flex; gap: 24px; flex-direction: column; margin-bottom: 80px;}
 .about .section3 .my-list li{display: flex; background-color: #fff; border-radius: 16px; box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.07); overflow: hidden;}
 .about .section3 .my-list .num{width: 110px; background-color: #005eff; padding-left: 24px;}
-.about .section3 .my-list .num span{line-height: 88px; font-size: 56px; color: #fff; font-weight: 300; position: relative;}
-.about .section3 .my-list .num span::before{width: 49px; height: 49px; content: ""; background-color: #fff; border-radius: 100%; position: absolute; left: 28px; top: -4px; z-index: 1; opacity: 0.23;}
+.about .section3 .my-list .num span{line-height: 2; font-size: 40px; color: #fff; font-weight: 300; position: relative;}
+.about .section3 .my-list .num span::before{width: 32px; height: 32px; content: ""; background-color: #fff; border-radius: 100%; position: absolute; left: 50%; top: -4px; z-index: 1; opacity: 0.23;}
 .about .section3 .my-list .my-content{width: calc(100% - 110px); padding: 24px 32px; }
 .about .section3 .my-list .my-content p{font-size: 24px; font-weight: 500; color: #222; line-height: 1.67;}
 .about .section3 .addition-txt.no{background: unset; text-align: center;}
@@ -383,9 +383,7 @@
     .about .section1 .top-txt {margin-bottom: 30px;}
     .about .section1 .scroll-wrap .scroll-bar{height:40px;}
     .addition-txt {font-size: 24px;}
-    .about .section3 .my-list .num span{font-size: 48px;}
     .about .section3 .my-list .my-content{padding: 3% 4%;}
-    .about .section3 .my-list .my-content p{font-size: 20px;  line-height: 1.5;}
 
     .intro-wrap .intro-con.onclick .view-more .view-focus{width:70%;}
     .rearn .rearn-list{gap:24px;}
