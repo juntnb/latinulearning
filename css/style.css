@@ -326,7 +326,7 @@
 .rearn1-chapter3 .plural-form2::after { top: 0; right: calc( 40% - 2px ); }
 .rearn1-chapter3 .plural-form2::before { display: none; }
 .rearn1-chapter3 .plural-form2 li { width: calc( ( 100% - 8px * 4 ) / 5 ); }
-.rearn1-chapter3 .plural-form2 li:nth-child(2), .rearn1-chapter3 .section2 .plural-form li:nth-child(3) { width: calc( ( 100% - 8px * 1.5 ) / 5 * 2 ); }
+.rearn1-chapter3 .plural-form2 li:nth-child(2), .rearn1-chapter3 .section2 .plural-form li:nth-child(3), .rearn1-chapter3 .plural-form li.long { width: calc( ( 100% - 8px * 1.5 ) / 5 * 2 ); }
 
 
 /* chapter 4 */
@@ -407,6 +407,7 @@
     .rearn .num-list p{font-size: 18px;}
 
     .rearn p.letter{font-size: 17px;}
+    .rearn .question-box > .review-txt > li{font-size: 17px;}
 }
 
 
